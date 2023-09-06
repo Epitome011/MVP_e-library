@@ -1,0 +1,405 @@
+body{
+	background-image: url('../images/bg1.jpg');
+	background-size: cover;
+}
+
+
+
+html{
+	scroll-behavior: smooth;
+	transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.overlay{
+	background-color: #d1ae98da !important;
+}
+
+/*Navigation Start*/
+.navbar{
+	background-color: #d1ae98;
+}
+.navbar .brand {
+	width: 5em;
+}
+
+.navbar .brand img{
+	width: 100%;
+	border-radius: 10rem;
+}
+
+.navbar ul li a{
+	color: #000 !important;
+}
+
+.nav-item{
+	margin-left: 15px;
+}
+
+.nav-item:hover{
+	background-color: #fff;
+	border-radius: 0.3rem;
+}
+
+.dropdown-item:hover{
+	font-weight: bold;
+}
+
+.signin a{
+	color: azure !important;	
+}
+
+.search{
+	display: inline !important;	
+}
+
+/*Navigation End*/
+
+.eeeimg{
+	width: 100%;
+}
+
+.eeeimg img{
+	width: 15em;
+	border-radius: 10rem;
+}
+
+.jumbo{
+	background-image: url('./images/bg1.jpg');
+	background-size: cover;
+	color: #ffffff;
+	margin-bottom: 50px;
+}
+
+.jumbotron{
+	background-color: #663100ce !important;
+	background-size: cover;
+	color: #ffffff;
+	margin-bottom: 50px;
+}
+
+
+.content{
+	margin: 40px;
+	font-family: sans-serif ;
+}
+
+.intro{
+	text-align: center;
+}
+
+/*Books Display*/
+
+.bookdisplay{
+	padding: 10px;
+	font-size: 13px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr; 
+	color: #000;
+}
+
+/*Individual books*/
+
+.book-cover{
+	width: 120px;
+	height: 150px;
+	margin: 20px;
+	margin: auto !important;
+	background-color: #d1ae98;
+
+}
+
+.book{
+	margin: auto !important;
+	text-align: center;
+}
+
+
+.bookdetails{
+	 text-align: center;
+}
+
+/*Books Display End*/
+
+/*Login & Register Form*/
+
+.myform{
+	margin: 30px;
+}
+
+.loginhead{
+	background: #1d2124;
+	padding: 20px;
+	font-weight: bolder;
+	color: orange;
+	margin: auto;
+	width: 70%;
+}
+
+.loginform{
+	background: azure;
+	width: 70%;
+	margin: auto;
+	padding: 50px;
+}
+
+.forminput{
+	margin: auto !important;
+	width: 50% !important;
+}
+ 
+.lower{
+	text-align: center;
+}
+
+.loginbutton{
+	width: 50%;
+}
+.createacc{
+	text-align: center;
+}
+
+.regbutton{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	width: 50%;
+}
+
+.regbutton input{
+	width: 100%;
+}
+
+.haveaccount{
+	text-align: center;
+}
+
+/*User Profile Page*/
+
+.users{
+	display: grid;
+	grid-template-columns: 60% 40%;
+}
+
+.profilepicture{
+	margin: 40px;
+	width: 40%;
+
+}
+
+.profilepic{
+	border-radius: 30px;
+	width: 100%;
+	height: 50%;
+
+}
+
+.userdetails{
+	margin: 40px;
+	color: azure;
+}
+
+.userdetails h3{
+	color: cyan;
+	margin: 10px;
+}
+
+.userdetails h5{
+	border: 1px solid #fff;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+.userdetails pre{
+	border: 1px solid #fff;
+	border-radius: 10px;
+	padding: 5px;
+	font-size: medium;
+	color: azure;
+}
+
+.userinfo{
+	margin: 40px;
+}
+
+/*Picture Change Page*/
+
+.dp{
+	text-align: center;
+}
+
+.profilepicpreview{
+	width: 20%;
+	height: 30%;
+
+}
+
+
+/*Footer*/
+
+footer{
+	margin-top: 40px; 
+	padding: 20px;
+	background-color: #d1ae98;
+	color: #000;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+
+
+
+
+/*Media Queries*/
+
+@media (max-width: 990px){
+
+	.navbar{
+		text-align: center;
+	}
+
+	.filter{
+		display: block !important;
+		width: 30% !important;
+		margin-left: auto !important;
+		margin-right: auto !important;
+		margin-top: 20px;
+	}
+
+	.signin{
+		align-self: center;
+		width: 40%;
+		margin: 20px;
+	}
+
+	.search{
+		width: 100% !important;	
+	}
+
+	.search{
+		display: block !important;
+		margin: auto !important;	
+	}
+
+	.bookdisplay{
+		font-size: 13px;
+		display: grid;
+		margin: auto !important;
+		grid-template-columns: 1fr 1fr; 
+
+	}
+
+	.book{
+		margin: auto !important;
+	}
+
+	.bookdetails{
+	 	text-align: center;
+	 }
+
+
+/*Login Form*/
+
+.myform{
+	margin: 10px;
+}
+
+.loginform{
+	background: azure;
+	width: 70%;
+	margin: auto;
+	padding: 50px;
+}
+
+.forminput{
+	margin: auto !important;
+	width: 100% !important;
+}
+
+.loginbutton{
+	width: 100%;
+}
+
+.regbutton{
+	width: 100%;
+}
+
+.lower p{ 
+	text-align: center;
+	width: 100%;
+}
+
+.createacc{
+	width: 100%;
+	display: block;
+}
+
+.regbutton{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	width: 50%; 
+}
+
+.regbutton input{
+	width: 100%;
+}
+
+.haveaccount{
+	text-align: center;
+}
+
+/*User Profile Page*/
+.profilepic{
+	text-align: center;
+	display: block;
+}
+
+
+.profilepic img{
+	width: 100%;
+	height: 250px;
+	border-radius: 100rem;
+	text-align: center;
+}
+
+.users{
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+
+}
+
+@media (max-width: 500px){
+	.content{
+		margin: 20px;
+			}
+
+	.container{
+		padding-left: 5px;
+		padding-right: 5px;
+		margin-left: 5px !important;
+		margin-right: 5px !important; 
+	}
+
+	.bookdisplay{
+		font-size: 13px;
+		display: block;
+		margin: auto !important;
+		width: 100%;
+	}
+
+	.book{
+		margin: auto !important;
+		margin-top: 3em;
+	}
+	 .bookdetails{
+	 	text-align: center;
+	 }
+
+	 
+
+}
+
